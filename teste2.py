@@ -11,12 +11,13 @@ if delta >=1:
     print("Existem duas raízes distintas")
     print(f"o resultado 1 é: {x1}")
     print(f"o resultado 2 é: {x2}")
+elif delta ==0:
+    print("Existem duas raízes reais iguais")
+    print(f"o resultado 1 é: {x1}")
+    print(f"o resultado 2 é: {x2}")
+elif delta <0:
+    print("Existem duas raízes imaginárias")
+    print(f"o resultado 1 é: {x1}")
+    print(f"o resultado 2 é: {x2}")
 else:
-    if delta ==0:
-        print("Existem duas raízes reais iguais")
-        print(f"o resultado 1 é: {x1}")
-        print(f"o resultado 2 é: {x2}")
-    if delta <0:
-        print("Existem duas raízes imaginárias")
-        print(f"o resultado 1 é: {x1}")
-        print(f"o resultado 2 é: {x2}")
+    print("Erro")
