@@ -1,14 +1,12 @@
 #Exercício 1
 
-x = float(input("informe o número: "))
+x = int(input("informe o número: "))
+
 if x ==2:
     print("Dois")
-
-elif x >=3:
-    print("Erro")
-
+elif x ==1:
+    print("Um")
+elif x ==0:
+    print("Zero")
 else:
-    if x ==1:
-        print("Um")
-    if x ==0:
-        print("Zero")
+    print("Erro")
